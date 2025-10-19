@@ -2,9 +2,9 @@
 void cube(double n);
 int main()
 {
-  doulbe n;
+  double n;
   printf("введите число для возведения в куб\n");
-  scanf("%lf\n", &n);
+  scanf("%lf", &n);
   cube(n);
   return 0;
 }

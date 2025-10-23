@@ -1,17 +1,17 @@
 #include <stdio.h>
-void temperatures (double f);
+void temper (double f);
 int main()
 {
   double far;
   printf("введите температуру в фаренгейтах:\n");
   while (scanf("%lf", &far) == 1)
   {
-    temperatures(far);
+    temper(far);
     printf("введите другое згначение для перевода или любую букву-символ для выхода:\n");
   }
   return 0;
   }
-  void temperatures (double far)
+  void temper (double far)
   {
   const double a = 5.0; // фаренгейты в цельсии
   const double b = 9.0; // фаренгейты в цельсии

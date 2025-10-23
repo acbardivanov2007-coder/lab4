@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-  int n=0;
+  int mon=0;
   int z=0;
   int x;
-  printf("введите число для сложения квадратов\n");
+  printf("введите количество дней для сложения денег в квадрате:\n");
   scanf("%d", &x);
-  while (n++<x)
-         z=(n*n+z);
-         printf("%d\n", z);
+  while (mon++<x)
+         z=(mon*mon+z);
+         printf("вот ваша сумма %d\n", z);
   return 0;
 }
